@@ -1,0 +1,52 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'roboto';
+}
+
+ul{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+
+.itens{
+    display: flex;
+    margin-right: 15px;
+}
+
+.itens a{
+    color: white;
+    text-decoration: none;
+}
+
+.itens a:hover{
+    color: rgba(255, 255, 255, 0.566);
+}
+
+li{
+    color: white;
+    list-style: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+main{
+    padding: 8px;
+    margin: 25px;
+    margin-top: 60px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
