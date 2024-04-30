@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        label{
+            display: inline-block;
+            width: 120px;
+            text-align: center;
+            line-height: 2;
+        }
+    </style>
+    <title>Formulário </title>
+</head>
+<body>
+    
+    <h1>Cadastro de Cliente</h1>
+    <form action="" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome"> <br>
+        <label for="cpf">Cpf:</label> 
+        <input type="number" name="cpf" id="cpf"><br>
+        <label for="quantidade">Quantidade:</label>
+        <input type="range" min="0" max="100" step="1" oninput="valor.value = quantidade.value" name="quantidade">
+        <output name="valor">50</output>
+        <label for="email">E-mail:</label>
+        <input type="email" placeholder="Digite seu email" name="email">
+        <label for="telefone"></label>
+        <input type="tel" placeholder="Digite seu telefone" name="telefone">
+        <label for="url"></label>
+        <input type="url" name="url">
+        <input type="submit" name="enviar">
+        <input type="reset" name="limpar">
+    </form>
+</body>
+</html>
