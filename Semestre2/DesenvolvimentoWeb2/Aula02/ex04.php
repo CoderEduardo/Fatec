@@ -1,10 +1,11 @@
 <?php
 
-    $media = $_POST['media'];
-    if($media>=6){
-        echo "Você foi aprovado";
-    }else{
-        echo("Você foi reprovado");
-    }
+$num = $_POST['num'];
+if ($num >= 10) {
+    echo ("<h2>Você está apto para participar da excursão</h2>");
+} 
+else {
+    echo ("<h2>Programa encerrado</h2>");
+}
 
 ?>

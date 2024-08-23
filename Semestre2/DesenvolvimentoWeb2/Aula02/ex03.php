@@ -1,13 +1,16 @@
-<?php
+<?php 
 
-    $num = $_POST['num'];
-    $porcentagem = ($num * 0.15);
+    $valor = $_POST['valor']; //alocando o valor de uma variável
+    $porcentagem = $_POST['porcentagem'];
 
+    $resultado = ($valor * ($porcentagem / 100));   // formando a porcentagem
+
+    //mostrando a porcentagem
     echo("
     
-        <h3>Resultado da porcentagem</h3>
-        <p>15% de $num é: $porcentagem</p>
+        <h3>Calculando Porcentagem</h3>
+        <p>$porcentagem% de $valor é: $resultado</p>
 
-    ")
+    ");
 
 ?>

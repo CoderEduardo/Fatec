@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Porcentagem</title>
+    <title>Calcular porcentagem</title>
 </head>
 <body>
     
-    <form action="ex03.php" method="post">
-        <h3>Calcular Porcentagem</h3>
-        <label for="num">
-            Digite um valor
-            <input type="text" name="num">
-        </label>
-        <label for=""><br><br><br></label>
-        <input type="submit" value="Calcular porcentagem">
+    <h3>Calcula Porcentagem</h3>
+    <form action="ex03.php" method="POST">
+            <label for="valor">Digite o valor total: 
+                <input type="text" name="valor">
+            </label>
+            <br>
+            <label for="porcentagem">Digite a porcentagem a ser calculada: 
+                <input type="text" name="porcentagem">
+            </label>
+            
+            <label for=""><br><br></label>
+            <input type="submit" value="Calcular">
     </form>
 
 </body>
