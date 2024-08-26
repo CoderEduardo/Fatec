@@ -1,4 +1,4 @@
-package Semestre2.TecnicasProgramacao.Aula02.Produto;
+package Semestre2.TecnicasProgramacao.Aula16_08_2024.Produto;
 
 public class Main {
     
