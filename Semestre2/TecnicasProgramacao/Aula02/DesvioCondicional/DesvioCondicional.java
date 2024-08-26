@@ -1,4 +1,4 @@
-package Semestre2.TecnicasProgramacao.Aula02;
+package Semestre2.TecnicasProgramacao.Aula02.DesvioCondicional;
 
 public class DesvioCondicional {
 
