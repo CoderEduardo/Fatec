@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerar senhas aleatórias</title>
+</head>
+<body>
+    
+    <h2>Gerador de senhas aleatórias</h2>
+
+    <form action="ex06.php" method="post">
+        <label for="tamanho">Digite o tamanho da senha: </label>
+        <input type="number" name="tamanho"><br><br>
+        <label for="letras">Deseja incluir letras?</label>
+        <input type="radio" name="letras" value="sim"> SIM <input type="radio" name="letras" value="nao"> NÃO <br><br>
+        <label for="numeros">Deseja incluir números?</label>
+        <input type="radio" name="numeros" value="sim"> SIM <input type="radio" name="numeros" value="nao"> NÃO <br><br>
+        <label for="especiais">Deseja incluir caracteres especiais?</label>
+        <input type="radio" name="especiais" value="sim"> SIM <input type="radio" name="especiais" value="nao"> NÃO <br><br>
+        <input type="submit" value="Gerar senha aleatória">
+    </form>
+
+</body>
+</html>
